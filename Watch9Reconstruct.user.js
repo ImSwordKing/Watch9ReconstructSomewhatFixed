@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name         Watch9 Reconstruct
-// @version      2.5.2
-// @description  Restores the old watch layout from before 2019
+// @name         Watch9 Reconstruct Somewhat Fixed
+// @version      3.5.2
+// @description  Fixes Watch9 Reconstruct somewhat to work with Old icons and buttons.
 // @author       Aubrey P.
+// @author       ImSwordKing
 // @icon         https://www.youtube.com/favicon.ico
-// @updateURL    https://github.com/aubymori/Watch9Reconstruct/raw/main/Watch9Reconstruct.user.js
-// @namespace    aubymori
+// @updateURL    https://github.com/ImSwordKing/Watch9ReconstructSomewhatFixed/raw/main/Watch9Reconstruct.user.js
+// @namespace    ImSwordKing
 // @license      Unlicense
 // @match        www.youtube.com/*
 // @grant        none
@@ -557,8 +558,7 @@ document.addEventListener("DOMContentLoaded", function tmp() {
         display: none;
     }
 
-    #info-strings.ytd-video-primary-info-renderer,
-    #owner-sub-count.ytd-video-owner-renderer {
+    #info-strings.ytd-video-primary-info-renderer {
         display: none !important;
     }
     </style>
